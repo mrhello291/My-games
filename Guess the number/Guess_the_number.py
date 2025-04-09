@@ -12,7 +12,7 @@ my_int = random.randint(1, n)
 print("If you ever want to stop in between just type 'exit'.")
 print("Lets Begin.\nGuess the number")
 previous = n
-print(my_int)
+# print(my_int)
 while True:
     y = input("Your Number please : ")
     if (y == "exit"):
